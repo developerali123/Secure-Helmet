@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/Secure-Helmet/static/css/main.4ff361c1.css",
+    "main.js": "/Secure-Helmet/static/js/main.f895b654.js",
+    "static/js/787.e47aff05.chunk.js": "/Secure-Helmet/static/js/787.e47aff05.chunk.js",
+    "static/media/about3.png": "/Secure-Helmet/static/media/about3.4fb1357d1af43f9f5713.png",
+    "static/media/about2.png": "/Secure-Helmet/static/media/about2.04ee60260e0ef6e77eb9.png",
+    "static/media/mission.png": "/Secure-Helmet/static/media/mission.670381a007a7d892f545.png",
+    "static/media/helmet.png": "/Secure-Helmet/static/media/helmet.f1d51a95c19a545853dd.png",
+    "static/media/about1.png": "/Secure-Helmet/static/media/about1.4e8d58986fb0b79d14f7.png",
+    "static/media/protection.png": "/Secure-Helmet/static/media/protection.17cc06d2174f95ac6663.png",
+    "static/media/user.png": "/Secure-Helmet/static/media/user.a6648329291f48c3cdcb.png",
+    "static/media/product.png": "/Secure-Helmet/static/media/product.bb8ffa903472fdeb348f.png",
+    "static/media/playstore.png": "/Secure-Helmet/static/media/playstore.1f5260972528472de42a.png",
+    "static/media/appstore.png": "/Secure-Helmet/static/media/appstore.9206b86b9362af675d8f.png",
+    "static/media/vector-2.svg": "/Secure-Helmet/static/media/vector-2.86e537553f5f4c359035e7efdc1dcf5c.svg",
+    "index.html": "/Secure-Helmet/index.html",
+    "main.4ff361c1.css.map": "/Secure-Helmet/static/css/main.4ff361c1.css.map",
+    "main.f895b654.js.map": "/Secure-Helmet/static/js/main.f895b654.js.map",
+    "787.e47aff05.chunk.js.map": "/Secure-Helmet/static/js/787.e47aff05.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4ff361c1.css",
+    "static/js/main.f895b654.js"
+  ]
+}
