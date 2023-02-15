@@ -6,14 +6,14 @@ export default function About(props) {
     <Container>
       {props.i === "1" && (
         <div className="about">
-          <img src={props.img} alt="" srcset="" />
-          <p>{props.text}</p>
+          <img src={props.img} alt="" srcset="" data-aos="fade-right" />
+          <p data-aos="fade-left">{props.text}</p>
         </div>
       )}
       {props.i === "2" && (
         <div className="about">
-        <p>{props.text}</p>
-          <img src={props.img} alt="" srcset="" />
+          <p data-aos="fade-right">{props.text}</p>
+          <img src={props.img} alt="" srcset="" data-aos="fade-left" />
         </div>
       )}
     </Container>

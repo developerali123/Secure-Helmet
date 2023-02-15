@@ -1,4 +1,5 @@
 import "./App.css";
+import React,{useEffect} from "react";
 import About from "./components/About";
 import Home from "./components/Home";
 import SecureNavbar from "./components/SecureNavbar";
@@ -16,11 +17,15 @@ import Button from "react-bootstrap/esm/Button";
 import Protection from "./components/Protection";
 import Footer from "./components/Footer";
 import Testimonials from "./components/Testinominal";
-
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 function App() {
+  useEffect(() => {
+    AOS.init();
+  }, [])
   return (
     <>
-      <SecureNavbar />
+      <SecureNavbar name="home" />
       <Home />
       <About
         text="According to the 2014 World Health Organization report, 2.69% of Pakistanis die due to road accidents every year. Do you know that in Punjab only, there were over 360,000 road accidents affecting nearly 400,000 people in 2021? These accidents took the lives of over 4,000 people."

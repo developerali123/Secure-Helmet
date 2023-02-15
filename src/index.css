@@ -11,7 +11,12 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
-
+.red{
+  color: #CC2525;
+}
+Nav{
+  margin-right: 30px;
+}
 /* Home */
 .buttons {
   border-radius: 70px;
@@ -32,8 +37,11 @@ code {
   color: #ff8e6b;
   font-size: 110px;
 }
-.text p,.text h3{
+.text p{
   font-size: 32px;
+}
+.text span{
+  color:#FF8E6B;
 }
 .homebtn{
   margin-top: 60px;
@@ -44,6 +52,8 @@ code {
   font-size: 30px;
   border: 2px solid rgb(247, 244, 244);
   padding: 10px;
+  padding-right: 30px;
+  padding-left: 30px;
 }
 .btn1:hover{
   background-color: #edcc96;
@@ -55,8 +65,10 @@ code {
   font-size: 30px;
   border: 2px solid rgb(247, 244, 244);
   padding: 10px;
+  padding-right: 30px;
+  padding-left: 30px;
 }
-.btn1:hover{
+.btn2:hover{
   background-color: #5b31e4;
   border: 2px solid rgb(247, 244, 244);
 }
@@ -64,11 +76,34 @@ code {
   display: flex;
   justify-content: flex-end;
   margin-right: 50px;
+  margin-top: 30px;
 }
 .vector h2 {
   font-size: 61.15px;
   align-self: center;
 }
+@media screen and (max-width:768px) {
+  .heading-text,.heading-flip{
+    font-size: 60px;
+  }
+  .text p{
+    font-size: 23px;
+  }
+  .home img{
+    width: 350px;
+  }
+  .btn1,.btn2{
+    font-size: 20px;
+  }
+  .vector h2{
+    font-size: 40px;
+  }
+  .vector img{
+    width: 100px;
+    height: 150px;
+  }
+}
+/* About */
 .about{
   display: flex;
   justify-content: space-evenly;
@@ -132,6 +167,33 @@ code {
 .img1{
   margin-right: 20px;
 }
+@media screen and (max-width:768px) {
+  .about p{
+    font-size: 20px;
+  }
+  .about img{
+    width: 300px;
+  }
+  .features h2{
+    font-size: 40px;
+  }
+  .features li{
+    font-size: 20px;
+  }
+  .works{
+    font-size: 60px;
+  }
+  .box p{
+    font-size: 25px;
+  }
+  .box1 Button,.box4 Button{
+    font-size: 25px;
+  }
+  .box1 img{
+    width: 150px;
+  }
+}
+/* Protection */
 .box3{
   display: flex;
   justify-content: center;
@@ -150,6 +212,7 @@ code {
 .protection p{
   font-size: 48px;
 }
+
 .mission{
   font-size: 121.61px;
   color:#142E49;
@@ -159,6 +222,21 @@ code {
 .mission span{
   color:#FF8E6B;
 }
+
+@media screen and (max-width:768px) {
+  .protection h2,h3{
+    font-size: 40px;
+  }
+  .protection p{
+    font-size: 20px;
+  }
+  .protection img{
+    width: 200px;
+  }
+  .mission{
+    font-size: 60px;
+  }
+}
 .box4{
   display: flex;
   flex-direction: column;
@@ -167,6 +245,9 @@ code {
 }
 .box4 img{
   margin-bottom: 50px;
+}
+.box4 Button{
+  margin-bottom: 30px;
 }
 .box1 .btn3{
   color:#FF8E6B;
@@ -184,6 +265,11 @@ code {
 .footer-container{
   display: flex;
   justify-content: space-between;
+}
+@media screen and (max-width:768px) {
+  .footer-container{
+    flex-direction: column;
+  }
 }
 .sec1,.sec2,.sec3,.sec4{
   display: flex;
@@ -208,6 +294,7 @@ code {
 .footer-contact{
   display: flex;
   flex-direction: column;
+  padding-right: 20px;
 }
 .footer-contact input[type="email"],.footer-contact textarea{
   padding: 10px;
@@ -296,7 +383,7 @@ code {
   margin-bottom: 4px;
   font-weight: 600;
   text-transform: uppercase;
-  font-size: 17px;
+  font-size: 32px;
 }
 
 .myCarousel h4 {
@@ -305,14 +392,14 @@ code {
   padding-top: 0;
   font-weight: 500;
   color: #787878;
-  font-size: 14px;
+  font-size: 28px;
 }
 
 .myCarousel p {
   font-weight: 100 !important;
   line-height: 29px !important;
   color: #222;
-  font-size: 15px;
+  font-size: 23px;
   font-family: sans-serif;
   max-height: 67px;
 }
