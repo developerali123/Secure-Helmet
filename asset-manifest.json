@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Secure-Helmet/static/css/main.4ff361c1.css",
-    "main.js": "/Secure-Helmet/static/js/main.f895b654.js",
+    "main.css": "/Secure-Helmet/static/css/main.5358406e.css",
+    "main.js": "/Secure-Helmet/static/js/main.d4410c72.js",
     "static/js/787.e47aff05.chunk.js": "/Secure-Helmet/static/js/787.e47aff05.chunk.js",
     "static/media/about3.png": "/Secure-Helmet/static/media/about3.4fb1357d1af43f9f5713.png",
     "static/media/about2.png": "/Secure-Helmet/static/media/about2.04ee60260e0ef6e77eb9.png",
@@ -15,12 +15,12 @@
     "static/media/appstore.png": "/Secure-Helmet/static/media/appstore.9206b86b9362af675d8f.png",
     "static/media/vector-2.svg": "/Secure-Helmet/static/media/vector-2.86e537553f5f4c359035e7efdc1dcf5c.svg",
     "index.html": "/Secure-Helmet/index.html",
-    "main.4ff361c1.css.map": "/Secure-Helmet/static/css/main.4ff361c1.css.map",
-    "main.f895b654.js.map": "/Secure-Helmet/static/js/main.f895b654.js.map",
+    "main.5358406e.css.map": "/Secure-Helmet/static/css/main.5358406e.css.map",
+    "main.d4410c72.js.map": "/Secure-Helmet/static/js/main.d4410c72.js.map",
     "787.e47aff05.chunk.js.map": "/Secure-Helmet/static/js/787.e47aff05.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.4ff361c1.css",
-    "static/js/main.f895b654.js"
+    "static/css/main.5358406e.css",
+    "static/js/main.d4410c72.js"
   ]
 }
