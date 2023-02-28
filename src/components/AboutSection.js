@@ -1,7 +1,7 @@
 import React from "react";
 import Container from "react-bootstrap/esm/Container";
 
-export default function About(props) {
+export default function AboutSection(props) {
   return (
     <Container>
       {props.i === "1" && (

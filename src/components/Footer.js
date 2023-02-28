@@ -65,9 +65,8 @@ export default function Footer() {
             Helmet Manufacturing
           </p>
           <div className="footer-contact">
-            <input type="email" name="" id="" />
-            <textarea name="" id="" cols="30" rows="10"></textarea>
-            <input type="submit" value="Send Message" />
+            <input type="email" name="" id="" placeholder="Enter Your Email" />
+            <input type="submit" value="Subscribe to Newsletter" />
           </div>
         </div>
       </Container>

@@ -4,7 +4,7 @@ import Container from "react-bootstrap/esm/Container";
 import img from "../images/helmet.png";
 import img1 from "../images/vector-2.svg";
 
-export default function Home() {
+export default function HomeSection() {
   
   return (
     <Container>
