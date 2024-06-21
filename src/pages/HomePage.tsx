@@ -35,7 +35,7 @@ const HomePage = () => {
       <div className="container mx-auto px-4">
         <div className="bg-white p-6">
           <p className="text-[#253D55] font-semibold">
-            Don't compromise on safety while riding your motorcycle.
+            Dont compromise on safety while riding your motorcycle.
           </p>
           <p className="text-[#253D55]">
             <span className="font-bold text-[#EE8D6E]">Get Secure today</span>{" "}
@@ -73,7 +73,7 @@ const HomePage = () => {
           <Protection
             img="/Assets/protection.png"
             text="Before"
-            para="Let your emergency contacts know you're heading out for a ride and, if you choose, to follow your ride in real-time."
+            para="Let your emergency contacts know you are heading out for a ride and, if you choose, to follow your ride in real-time."
           />
           <Protection
             img="/Assets/protection.png"
@@ -83,7 +83,7 @@ const HomePage = () => {
           <Protection
             img="/Assets/protection.png"
             text="After"
-            para="If you're unable to cancel the countdown, your emergency contacts will receive a text with your crash location."
+            para="If you are unable to cancel the countdown, your emergency contacts will receive a text with your crash location."
           />
         </div>
       </div>
