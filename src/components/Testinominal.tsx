@@ -1,7 +1,8 @@
-"use client"
+"use client";
 import React, { Component } from "react";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import { Carousel } from "react-responsive-carousel";
+import Image from "next/image";
 
 export default class Testimonials extends Component {
   render() {
@@ -15,7 +16,7 @@ export default class Testimonials extends Component {
         interval={2000}
       >
         <div>
-          <img src="/Assets/user.png" alt="" />
+          <Image src="/Assets/user.png" alt="" width={200} height={200} />
           <div className="myCarousel">
             <h3>Shirley Fultz</h3>
             <h4>Designer</h4>
@@ -27,7 +28,7 @@ export default class Testimonials extends Component {
         </div>
 
         <div>
-          <img src="/Assets/user.png" alt="" />
+          <Image src="/Assets/user.png" alt="" width={200} height={200} />
           <div className="myCarousel">
             <h3>Daniel Keystone</h3>
             <h4>Designer</h4>
@@ -39,7 +40,7 @@ export default class Testimonials extends Component {
         </div>
 
         <div>
-          <img src="/Assets/user.png" alt="" />
+          <Image src="/Assets/user.png" alt="" width={200} height={200} />
           <div className="myCarousel">
             <h3>Theo Sorel</h3>
             <h4>Designer</h4>

@@ -1,3 +1,4 @@
+import Image from "next/image";
 
 export default function Footer() {
   return (
@@ -5,7 +6,7 @@ export default function Footer() {
       <div className="grid grid-cols-12 gap-6 container mx-auto px-4">
         <div className="md:col-span-4 col-span-8">
           <div className="flex items-center mb-4">
-            <img src="/Assets/secure logo.png" alt="" width={"100px"} />
+            <Image src="/Assets/secure logo.png" alt="" width={50} height={50} />
             <div className="ml-4">
               <h4 className="text-xl font-bold">Secure Setup Ltd</h4>
               <p>Helmet custom designer</p>
