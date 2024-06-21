@@ -19,7 +19,7 @@ export default function SecureNavbar( name:any ) {
               </Link>
               <Link href="#link" className="py-4 px-2 text-[#253D55]">Career</Link>
               <Link href="#link" className="py-4 px-2 text-[#253D55]">About</Link>
-              <Link href="/Secure-Helmet/contact" className={`py-4 px-2 ${name === "contact" ? "text-[#253D55] font-bold" : "text-[#253D55]"}`}>
+              <Link href="/contact" className={`py-4 px-2 ${name === "contact" ? "text-[#253D55] font-bold" : "text-[#253D55]"}`}>
                 Contact
               </Link>
               <Link href="#link" className="py-4 px-2 text-[#253D55]">Testimonial</Link>
