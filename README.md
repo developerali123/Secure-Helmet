@@ -1,70 +1,160 @@
-# Getting Started with Create React App
+This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Getting Started
 
-## Available Scripts
+First, run the development server:
 
-In the project directory, you can run:
+```bash
+npm run dev
+# or
+yarn dev
+# or
+pnpm dev
+# or
+bun dev
+```
 
-### `npm start`
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
 
 ## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+To learn more about Next.js, take a look at the following resources:
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
+- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
-### Code Splitting
+You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## Deploy on Vercel
 
-### Analyzing the Bundle Size
+The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
 
-### Making a Progressive Web App
+```
+secure-helmet
+├─ .eslintrc.json
+├─ .git
+│  ├─ COMMIT_EDITMSG
+│  ├─ config
+│  ├─ description
+│  ├─ FETCH_HEAD
+│  ├─ HEAD
+│  ├─ hooks
+│  │  ├─ applypatch-msg.sample
+│  │  ├─ commit-msg.sample
+│  │  ├─ fsmonitor-watchman.sample
+│  │  ├─ post-update.sample
+│  │  ├─ pre-applypatch.sample
+│  │  ├─ pre-commit.sample
+│  │  ├─ pre-merge-commit.sample
+│  │  ├─ pre-push.sample
+│  │  ├─ pre-rebase.sample
+│  │  ├─ pre-receive.sample
+│  │  ├─ prepare-commit-msg.sample
+│  │  ├─ push-to-checkout.sample
+│  │  ├─ sendemail-validate.sample
+│  │  └─ update.sample
+│  ├─ index
+│  ├─ info
+│  │  └─ exclude
+│  ├─ logs
+│  │  ├─ HEAD
+│  │  └─ refs
+│  │     └─ heads
+│  │        └─ master
+│  ├─ objects
+│  │  ├─ 11
+│  │  │  └─ 3ca2398fe72d65b3538f0984b6121a026c9743
+│  │  ├─ 18
+│  │  │  └─ 2cd5e1b7b0f624758c8b796521d0e5584cecbe
+│  │  ├─ 1a
+│  │  │  └─ 69fd2a450afc3bf47e08b22c149190df0ffdb4
+│  │  ├─ 2a
+│  │  │  └─ cfd440d7c9eb66792802a8660bf245a4f5a3ab
+│  │  ├─ 33
+│  │  │  └─ 14e4780a0c8785366fdc3b8499668d163e33f8
+│  │  ├─ 46
+│  │  │  └─ 78774e6d606704bce1897a5dab960cd798bf66
+│  │  ├─ 51
+│  │  │  └─ 74b28c565c285e3e312ec5178be64fbeca8398
+│  │  ├─ 69
+│  │  │  └─ 20335578d0ee0ddd4c8e563f89505f348ece03
+│  │  ├─ 71
+│  │  │  └─ 8d6fea4835ec2d246af9800eddb7ffb276240c
+│  │  ├─ 7b
+│  │  │  └─ 2858930495fc4a76d7a51d958bacf2d64eb81f
+│  │  ├─ 87
+│  │  │  └─ 5c01e819b90038f0c3e4aee2a4dcc2086b0e14
+│  │  ├─ 93
+│  │  │  └─ 5246e63af63d2869d904eb82a74b8437aea5d6
+│  │  ├─ 9d
+│  │  │  └─ c99fc897f8aedd6b7420ed5807b15e9a8c5751
+│  │  ├─ b3
+│  │  │  └─ 76ecba88070fd6a55d6b925c116036c2f02ef8
+│  │  ├─ bf
+│  │  │  └─ fb357a7122523ec94045523758c4b825b448ef
+│  │  ├─ c2
+│  │  │  └─ bee3130f871d9996d82d0bad60ce68658a4f81
+│  │  ├─ c4
+│  │  │  └─ 033664f80d3cb9cb687fb5facbc82aedb302f6
+│  │  ├─ d2
+│  │  │  └─ f84222734f27b623d1c80dda3561b04d1284af
+│  │  ├─ e9
+│  │  │  └─ a0944e7b319989ec1a7327d9695247c5bd1a41
+│  │  ├─ fd
+│  │  │  └─ 3dbb571a12a1c3baf000db049e141c888d05a8
+│  │  ├─ info
+│  │  └─ pack
+│  └─ refs
+│     ├─ heads
+│     │  └─ master
+│     └─ tags
+├─ .gitignore
+├─ next.config.mjs
+├─ package-lock.json
+├─ package.json
+├─ postcss.config.mjs
+├─ public
+│  ├─ Assets
+│  │  ├─ about1.png
+│  │  ├─ about2.png
+│  │  ├─ about3.png
+│  │  ├─ appstore.png
+│  │  ├─ helmet.png
+│  │  ├─ mission.png
+│  │  ├─ playstore.png
+│  │  ├─ product.png
+│  │  ├─ protection.png
+│  │  ├─ secure logo.png
+│  │  ├─ user.png
+│  │  └─ vector-2.svg
+│  ├─ next.svg
+│  └─ vercel.svg
+├─ README.md
+├─ src
+│  ├─ app
+│  │  ├─ favicon.ico
+│  │  ├─ globals.css
+│  │  ├─ layout.tsx
+│  │  └─ page.tsx
+│  ├─ components
+│  │  ├─ AboutSection.tsx
+│  │  ├─ Features.tsx
+│  │  ├─ Footer.tsx
+│  │  ├─ HomeSection.tsx
+│  │  ├─ Protection.tsx
+│  │  ├─ SecureNavbar.tsx
+│  │  └─ Testinominal.tsx
+│  └─ pages
+│     ├─ Contact.tsx
+│     ├─ Home.tsx
+│     └─ HomePage.tsx
+├─ tailwind.config.ts
+└─ tsconfig.json
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+```
